@@ -13,6 +13,8 @@
 		E3654C3C2032D750009F8F85 /* Heroes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3654C3A2032D750009F8F85 /* Heroes.xcdatamodeld */; };
 		E3654C3E2032D750009F8F85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3654C3D2032D750009F8F85 /* Assets.xcassets */; };
 		E3654C412032D750009F8F85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3654C3F2032D750009F8F85 /* LaunchScreen.storyboard */; };
+		E3654C4920344A81009F8F85 /* TablaDinamicaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3654C4820344A81009F8F85 /* TablaDinamicaTableViewController.swift */; };
+		E3654C4B20344ED5009F8F85 /* ListaHeroes.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3654C4A20344ED5009F8F85 /* ListaHeroes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E3654C3D2032D750009F8F85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3654C402032D750009F8F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3654C422032D750009F8F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3654C4820344A81009F8F85 /* TablaDinamicaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablaDinamicaTableViewController.swift; sourceTree = "<group>"; };
+		E3654C4A20344ED5009F8F85 /* ListaHeroes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ListaHeroes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				E3654C332032D750009F8F85 /* AppDelegate.swift */,
 				E3654C352032D750009F8F85 /* ViewController.swift */,
 				E3654C372032D750009F8F85 /* Main.storyboard */,
+				E3654C4820344A81009F8F85 /* TablaDinamicaTableViewController.swift */,
+				E3654C4A20344ED5009F8F85 /* ListaHeroes.plist */,
 				E3654C3D2032D750009F8F85 /* Assets.xcassets */,
 				E3654C3F2032D750009F8F85 /* LaunchScreen.storyboard */,
 				E3654C422032D750009F8F85 /* Info.plist */,
@@ -128,6 +134,7 @@
 			files = (
 				E3654C412032D750009F8F85 /* LaunchScreen.storyboard in Resources */,
 				E3654C3E2032D750009F8F85 /* Assets.xcassets in Resources */,
+				E3654C4B20344ED5009F8F85 /* ListaHeroes.plist in Resources */,
 				E3654C392032D750009F8F85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 			files = (
 				E3654C362032D750009F8F85 /* ViewController.swift in Sources */,
 				E3654C342032D750009F8F85 /* AppDelegate.swift in Sources */,
+				E3654C4920344A81009F8F85 /* TablaDinamicaTableViewController.swift in Sources */,
 				E3654C3C2032D750009F8F85 /* Heroes.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
