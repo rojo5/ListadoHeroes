@@ -200,12 +200,33 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jC9-ge-sdA">
+                                <frame key="frameInset" minY="364" width="375" height="303"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V0J-Q6-0vA">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Satelite" id="N2m-qy-OKn">
+                                        <connections>
+                                            <action selector="cambiarModo:" destination="Yhh-OA-f3a" id="4sY-bH-SHx"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Localizar" id="uxJ-dQ-xPe">
+                                        <connections>
+                                            <action selector="localizar:" destination="Yhh-OA-f3a" id="Vcg-0j-q6O"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="NombreArtistico" destination="GII-wD-dma" id="Ak3-oG-mwq"/>
                         <outlet property="descripcion" destination="Pef-Qh-AmJ" id="HXG-xU-I5U"/>
+                        <outlet property="miMapa" destination="jC9-ge-sdA" id="x7l-aa-G6A"/>
                         <outlet property="nombreReal" destination="pjS-he-La2" id="2cj-Gi-FaS"/>
                     </connections>
                 </viewController>

@@ -109,11 +109,16 @@ class TablaDinamicaTableViewController: UITableViewController {
             let nombreHeroeReal = listadoHeroesEnArray[tableView.indexPathForSelectedRow!.row][1]
             let descripcionDelHeroe = listadoHeroesEnArray[tableView.indexPathForSelectedRow!.row][5]
             
+            let latitud =  listadoHeroesEnArray[tableView.indexPathForSelectedRow!.row][6]
+            let longitud =  listadoHeroesEnArray[tableView.indexPathForSelectedRow!.row][7]
+            
             let pantallaDestino:ViewController = segue.destination as! ViewController
             
             pantallaDestino.nombreHeroe = nombreArchivo
             pantallaDestino.nombre = nombreHeroeReal
             pantallaDestino.descripcionHeroe = descripcionDelHeroe
+            pantallaDestino.longitud = Double(longitud)!
+            pantallaDestino.latitud = Double(latitud)!
         }
     }
     
