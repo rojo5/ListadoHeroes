@@ -10,11 +10,12 @@
 		E3654C342032D750009F8F85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3654C332032D750009F8F85 /* AppDelegate.swift */; };
 		E3654C362032D750009F8F85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3654C352032D750009F8F85 /* ViewController.swift */; };
 		E3654C392032D750009F8F85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3654C372032D750009F8F85 /* Main.storyboard */; };
-		E3654C3C2032D750009F8F85 /* Heroes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3654C3A2032D750009F8F85 /* Heroes.xcdatamodeld */; };
 		E3654C3E2032D750009F8F85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3654C3D2032D750009F8F85 /* Assets.xcassets */; };
 		E3654C412032D750009F8F85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3654C3F2032D750009F8F85 /* LaunchScreen.storyboard */; };
 		E3654C4920344A81009F8F85 /* TablaDinamicaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3654C4820344A81009F8F85 /* TablaDinamicaTableViewController.swift */; };
 		E3654C4B20344ED5009F8F85 /* ListaHeroes.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3654C4A20344ED5009F8F85 /* ListaHeroes.plist */; };
+		E3654C4D203D90F7009F8F85 /* anadirHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3654C4C203D90F7009F8F85 /* anadirHeroes.swift */; };
+		E3654C52203D98E2009F8F85 /* Heroes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3654C50203D98E2009F8F85 /* Heroes.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +23,13 @@
 		E3654C332032D750009F8F85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3654C352032D750009F8F85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3654C382032D750009F8F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E3654C3B2032D750009F8F85 /* Heroes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Heroes.xcdatamodel; sourceTree = "<group>"; };
 		E3654C3D2032D750009F8F85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3654C402032D750009F8F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3654C422032D750009F8F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3654C4820344A81009F8F85 /* TablaDinamicaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablaDinamicaTableViewController.swift; sourceTree = "<group>"; };
 		E3654C4A20344ED5009F8F85 /* ListaHeroes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ListaHeroes.plist; sourceTree = "<group>"; };
+		E3654C4C203D90F7009F8F85 /* anadirHeroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = anadirHeroes.swift; sourceTree = "<group>"; };
+		E3654C51203D98E2009F8F85 /* Heroes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Heroes.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +65,13 @@
 				E3654C332032D750009F8F85 /* AppDelegate.swift */,
 				E3654C352032D750009F8F85 /* ViewController.swift */,
 				E3654C372032D750009F8F85 /* Main.storyboard */,
+				E3654C4C203D90F7009F8F85 /* anadirHeroes.swift */,
+				E3654C50203D98E2009F8F85 /* Heroes.xcdatamodeld */,
 				E3654C4820344A81009F8F85 /* TablaDinamicaTableViewController.swift */,
 				E3654C4A20344ED5009F8F85 /* ListaHeroes.plist */,
 				E3654C3D2032D750009F8F85 /* Assets.xcassets */,
 				E3654C3F2032D750009F8F85 /* LaunchScreen.storyboard */,
 				E3654C422032D750009F8F85 /* Info.plist */,
-				E3654C3A2032D750009F8F85 /* Heroes.xcdatamodeld */,
 			);
 			path = Heroes;
 			sourceTree = "<group>";
@@ -149,7 +152,8 @@
 				E3654C362032D750009F8F85 /* ViewController.swift in Sources */,
 				E3654C342032D750009F8F85 /* AppDelegate.swift in Sources */,
 				E3654C4920344A81009F8F85 /* TablaDinamicaTableViewController.swift in Sources */,
-				E3654C3C2032D750009F8F85 /* Heroes.xcdatamodeld in Sources */,
+				E3654C4D203D90F7009F8F85 /* anadirHeroes.swift in Sources */,
+				E3654C52203D98E2009F8F85 /* Heroes.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,12 +319,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E3654C3A2032D750009F8F85 /* Heroes.xcdatamodeld */ = {
+		E3654C50203D98E2009F8F85 /* Heroes.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E3654C3B2032D750009F8F85 /* Heroes.xcdatamodel */,
+				E3654C51203D98E2009F8F85 /* Heroes.xcdatamodel */,
 			);
-			currentVersion = E3654C3B2032D750009F8F85 /* Heroes.xcdatamodel */;
+			currentVersion = E3654C51203D98E2009F8F85 /* Heroes.xcdatamodel */;
 			path = Heroes.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
