@@ -10,13 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var NombreArtistico: UILabel!
+    @IBOutlet var NombreArtistico: UILabel! //weak quitado
+    @IBOutlet var nombreReal: UILabel!
+    @IBOutlet var descripcion: UILabel!
     
     var nombreHeroe :String = ""
+    var nombre : String = ""
+    var descripcionHeroe : String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         NombreArtistico.text = nombreHeroe
+        nombreReal.text = nombre
+        descripcion.text = descripcionHeroe
         // Do any additional setup after loading the view, typically from a nib.
     }
 

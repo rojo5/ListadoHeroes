@@ -8,6 +8,7 @@
 		<string>Heroe</string>
 		<string>Marvel</string>
 		<string>Nueva York</string>
+		<string>Es un superheroe gracias a sus grandes conocimientos sobre la tecnologia</string>
 	</array>
 	<array>
 		<string>Capitan America</string>
@@ -15,6 +16,7 @@
 		<string>Heroe</string>
 		<string>Marvel</string>
 		<string>Nueva York</string>
+		<string>Soldado de la segunda guerra mundial mejorado geneticamente</string>
 	</array>
 </array>
 </plist>
