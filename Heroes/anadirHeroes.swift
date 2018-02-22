@@ -8,19 +8,24 @@
 
 import UIKit
 import CoreData
+import MapKit
 
-class anadirHeroes: UIViewController {
+class anadirHeroes: UIViewController, MKMapViewDelegate {
     
     @IBOutlet var heroe: UITextField!
     
     @IBOutlet var nombre: UITextField!
     
     
+    @IBOutlet var mapa: MKMapView!
+    
     @IBOutlet var descripcion: UITextField!
     
     @IBOutlet var latitud: UITextField!
     
     @IBOutlet var longitud: UITextField!
+    
+
     
     
     @IBAction func cancelar(_ sender: UIBarButtonItem) {
@@ -57,10 +62,14 @@ class anadirHeroes: UIViewController {
         
         self.dismiss(animated: true, completion: nil)
     }
+    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+        
         // Do any additional setup after loading the view.
     }
 
@@ -68,6 +77,8 @@ class anadirHeroes: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+
     
 
     /*
@@ -81,3 +92,5 @@ class anadirHeroes: UIViewController {
     */
 
 }
+
+

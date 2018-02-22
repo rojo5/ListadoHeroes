@@ -103,6 +103,9 @@ class TablaDinamicaTableViewController: UITableViewController,NSFetchedResultsCo
         
         heroe = registro.value(forKey: "heroe") as! String?
         nombre = registro.value(forKey: "nombre") as! String?
+        descripcion = registro.value(forKey: "descripcion") as! String?
+        latitud = registro.value(forKey: "latitud") as! Double!
+        longitud = registro.value(forKey: "longitud") as! Double!
         //con coreData
         
         cell.textLabel!.text = registro.value(forKey: "heroe") as! String?
@@ -177,19 +180,19 @@ class TablaDinamicaTableViewController: UITableViewController,NSFetchedResultsCo
             let nombreArchivo = heroe
             let nombreHeroeReal = nombre
 
-            let descripcionDelHeroe = listadoHeroesEnArray[tableView.indexPathForSelectedRow!.row][5]
+            let descripcionDelHeroe = descripcion
             
-            let latitud =  listadoHeroesEnArray[tableView.indexPathForSelectedRow!.row][6]
-            let longitud =  listadoHeroesEnArray[tableView.indexPathForSelectedRow!.row][7]
+            let latitud =  self.latitud
+            let longitud =  self.longitud
             
             let pantallaDestino:ViewController = segue.destination as! ViewController
 
             
             pantallaDestino.nombreHeroe = nombreArchivo!
             pantallaDestino.nombre = nombreHeroeReal!
-            pantallaDestino.descripcionHeroe = descripcionDelHeroe
-            pantallaDestino.longitud = Double(longitud)!
-            pantallaDestino.latitud = Double(latitud)!
+            pantallaDestino.descripcionHeroe = descripcionDelHeroe!
+            pantallaDestino.longitud = Double(longitud!)
+            pantallaDestino.latitud = Double(latitud!)
         }
     }
     

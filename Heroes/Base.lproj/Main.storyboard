@@ -189,6 +189,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qaV-6Z-93L">
+                                <frame key="frameInset" minX="18" minY="453" width="341" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Descripcion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRy-Yo-jMn">
                                 <frame key="frameInset" minX="16" minY="386" width="121" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -216,6 +220,7 @@
                         <outlet property="heroe" destination="5dp-ur-0oi" id="uCb-ry-c8w"/>
                         <outlet property="latitud" destination="Wfz-Od-kEL" id="cBm-7W-EXq"/>
                         <outlet property="longitud" destination="foa-Up-r4g" id="MUa-qZ-0Ie"/>
+                        <outlet property="mapa" destination="qaV-6Z-93L" id="lJ8-s6-FbZ"/>
                         <outlet property="nombre" destination="kjf-Xa-j6d" id="uMF-pB-3NB"/>
                     </connections>
                 </viewController>
