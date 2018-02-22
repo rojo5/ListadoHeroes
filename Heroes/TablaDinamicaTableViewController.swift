@@ -161,7 +161,7 @@ class TablaDinamicaTableViewController: UITableViewController,NSFetchedResultsCo
         // Pass the selected object to the new view controller.
         
         if segue.identifier == "vistaDetallada" {
-           //No valido let registro : NSManagedObject = self.fetchedResultsController.object(at: indexPath) as! NSManagedObject
+            //let registro : NSManagedObject = self.fetchedResultsController.object(at: ) as! NSManagedObject
            //registro.value(forKey: "heroe") as! String?
             
             
