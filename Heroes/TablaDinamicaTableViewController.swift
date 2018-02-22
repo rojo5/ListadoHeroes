@@ -108,8 +108,10 @@ class TablaDinamicaTableViewController: UITableViewController,NSFetchedResultsCo
         longitud = registro.value(forKey: "longitud") as! Double!
         //con coreData
         
+        
         cell.textLabel!.text = registro.value(forKey: "heroe") as! String?
         cell.detailTextLabel!.text = registro.value(forKey: "nombre") as! String?
+        
 
         return cell
     }
@@ -163,9 +165,9 @@ class TablaDinamicaTableViewController: UITableViewController,NSFetchedResultsCo
            //registro.value(forKey: "heroe") as! String?
             
             
+            let indice = tableView.indexPathForSelectedRow?.row
             
-            
-            
+            print(indice)
             
             
             /*
